@@ -1,28 +1,22 @@
-#Testing_Intern
-
 Introduction
-
 This test suite is designed to validate the functionality and data consistency of the Conqt platform. It includes tests for page loading, API endpoints, data consistency between pages and APIs, contrast ratios, and discernible links.
 Test Suite Components
 1. Page Load Tests
 These tests check if the specified pages load successfully.
 Functions:
-
 •	test_page_load(url): Checks if a page at the given URL loads successfully.
 •	test_conqt_pages_load(): Iterates over a list of URLs and checks if each page loads successfully.
-3. API Endpoint Tests
+2. API Endpoint Tests
 These tests verify if the specified API endpoints are reachable and return the expected status code.
 Functions:
-
 •	test_api_endpoint(url, expected_status=200): Checks if the API at the given URL returns the expected status code.
 •	test_all_api_endpoints(): Iterates over a list of API URLs and checks if each API returns the expected status code.
-4. Data Consistency Tests
+3. Data Consistency Tests
 These tests ensure that the data displayed on the pages is consistent with the data returned by the corresponding API endpoints.
 Functions:
-
 •	test_data_consistency(page_url, api_url): Compares data between a page and its corresponding API endpoint.
 •	test_conqt_data_consistency(): Iterates over a list of page-API URL pairs and checks data consistency for each pair.
-5. Contrast Ratio Tests
+4. Contrast Ratio Tests
 These tests (placeholder) are intended to check if the contrast ratios on the specified pages meet the accessibility criteria.
 
 Functions:
