@@ -1,5 +1,5 @@
-# Testing_Intern
-Introduction
+**# Testing_Intern
+Introduction**
 This test suite is designed to validate the functionality and data consistency of the Conqt platform. It includes tests for page loading, API endpoints, data consistency between pages and APIs, contrast ratios, and discernible links.
 Test Suite Components
 1. Page Load Tests
